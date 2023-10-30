@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: whitesmoke;
+}
+
+.banner img {
+    width: 100%;
+}
+
+
+main hr {
+
+    width: 60%;
+}
+/*Estilos navbar*/
+
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    background-color: #d8f3dc;
+    height: 50px;
+    z-index: 1;
+    flex-wrap: wrap;
+    }
+
+
+
+
+.navbar a:hover {
+    color: #008265;
+}
+
+.nav-link {
+    position: relative;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+
+}
+
+
+
+/*Estilos del carousel*/
+.carousel-item {
+    margin: top 10px;
+    ;
+    height: auto;
+    max-height: 600px;
+    width: 100%;
+
+}
+
+
+/* Estilo para los párrafos */
+p{  
+    flex-wrap: wrap;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: auto;
+    color: #081c15;
+    width: 40%;
+}
+
+
+    
+
+
+/* Estilo para las imágenes dentro de la sección principal */
+
+
+main img {
+
+    display: flex;
+    width:40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Estilo para el encabezado de nivel 1 */
+h1 {
+    justify-content: center;
+    color: white;
+    background-color: #081c15;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+}
+
+/* Estilo para el encabezado de nivel 2 */
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #081c15;
+}
+
+h2 a:hover {
+    color: #008265;
+}
+
+h2 a {
+    text-decoration: none;
+    color: #081c15;
+
+}
+
+
+/* Estilo para el encabezado de nivel 3 dentro de párrafos */
+h3 p {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    line-height: 1.5;
+    max-width: 100%;
+    text-align: center;
+}
+
+
+/* Estilos para el footer */
+
+
+footer {
+
+    margin-top: 15px;
+    background-color: #d8f3dc;
+    text-align: right;
+}
+
+
+
+
+footer ul li {
+    color: #081c15;
+    display: inline-block;
+    list-style-type: none;
+    text-align: right;
+    justify-content: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+
+
+footer a:hover {
+    color: #008265;
+}
+
+
+footer hr {
+    max-width: 100%;
+}
