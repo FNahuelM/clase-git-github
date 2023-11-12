@@ -1,15 +1,14 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
-
 body {
-    background-color: whitesmoke;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f8efda;
 }
 
+.contenido{
+    align-items: center;
+    justify-content: center;
+}
 .banner img {
     width: 100%;
 }
@@ -19,21 +18,29 @@ main hr {
 
     width: 60%;
 }
+
 /*Estilos navbar*/
 
 
 .navbar {
-    justify-content: space-between;
+    
+    
     align-items: center;
-    padding: 0 5rem;
+    padding: 0;
     box-sizing: border-box;
     position: sticky;
     top: 0;
     background-color: #d8f3dc;
     height: 50px;
-    z-index: 1;
     flex-wrap: wrap;
-    }
+}
+.navbar-nav{
+    
+    background-color: #d8f3dc;
+    align-items: center;
+}
+    
+
 
 
 
@@ -45,7 +52,7 @@ main hr {
 .nav-link {
     position: relative;
     align-items: center;
-    color: black;
+    color: rgb(2, 40, 2);
     font-size: 20px;
 
 }
@@ -64,7 +71,7 @@ main hr {
 
 
 /* Estilo para los párrafos */
-p{  
+p {
     flex-wrap: wrap;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: auto;
@@ -73,7 +80,7 @@ p{
 }
 
 
-    
+
 
 
 /* Estilo para las imágenes dentro de la sección principal */
@@ -82,7 +89,7 @@ p{
 main img {
 
     display: flex;
-    width:40%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -131,35 +138,32 @@ h3 p {
 
 /* Estilos para el footer */
 
-
-footer {
-
-    margin-top: 15px;
-    background-color: #d8f3dc;
-    text-align: right;
-}
-
-
-
-
-footer ul li {
-    color: #081c15;
-    display: inline-block;
-    list-style-type: none;
-    text-align: right;
-    justify-content: right;
-    margin-top: 10px;
-    margin-right: 10px;
+.footer {
+    display: flex;
+    text-decoration: none;
     font-size: 30px;
+    background-color: #d8f3dc;
+    margin-top: 15px;
+    text-align: right;
+
 }
 
+a {
+    color: rgb(2, 40, 2);
+    
+}
 
-
-footer a:hover {
+a:hover {
     color: #008265;
 }
+ul li {
+    text-align: right;
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 10px; 
+}
 
-
-footer hr {
-    max-width: 100%;
+@media screen {
+    
 }
