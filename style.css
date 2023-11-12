@@ -167,10 +167,14 @@ ul li {
 }
 
 @media (max-width:991px){
-    .carouse{
+    
+
+    .carousel{
         display:none;
     }
     .contenido{
-        font-size: 5px
-    }
-}
+           font-size: 10px;
+              
+
+        }
+    }   
