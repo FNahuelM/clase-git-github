@@ -26,6 +26,7 @@ main hr {
     
     
     align-items: center;
+    justify-content:right;
     padding: 0;
     box-sizing: border-box;
     position: sticky;
@@ -37,7 +38,8 @@ main hr {
 .navbar-nav{
     
     background-color: #d8f3dc;
-    align-items: center;
+align-items: center;
+justify-content: center;
 }
     
 
@@ -164,6 +166,11 @@ ul li {
     margin-left: 10px; 
 }
 
-@media screen {
-    
+@media (max-width:991px){
+    .carouse{
+        display:none;
+    }
+    .contenido{
+        font-size: 5px
+    }
 }
