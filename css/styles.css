@@ -1,11 +1,56 @@
+@import url("https://fonts.googleapis.com/css2? family= Montserrat:wght@400;500 & family= Nunito:wght@300 & display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+img {
+  width: 100%;
+}
+
 ul {
   text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #081c15;
+  font-size: 2rem;
+}
+
+nav {
+  color: #081c15;
+  background-color: #bcf1c4;
+  align-items: center;
+  justify-content: right;
+  padding: 0;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  background-color: #d8f3dc;
+  height: 50px;
+  flex-wrap: wrap;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  font-size: 3rem;
+}
+nav ul li a {
+  color: #081c15;
+  text-decoration: none;
+}
+
+p {
+  flex-wrap: wrap;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-weight: auto;
+  color: #081c15;
+  width: 40%;
 }
 
 /*# sourceMappingURL=styles.css.map */

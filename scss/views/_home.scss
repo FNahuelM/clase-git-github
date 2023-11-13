@@ -1,0 +1,40 @@
+nav{
+    color: $color-3;
+    background-color:#bcf1c4;
+    align-items: center;
+    justify-content:right;
+    padding: 0;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    background-color: #d8f3dc;
+    height: 50px;
+    flex-wrap: wrap;
+
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        li{
+            
+            font-size: $font-xxl;
+            a{
+                color: $color-3;
+                text-decoration: none;
+        
+            }
+        }
+    }
+}
+
+$color_1: #081c15;
+$font-family_1: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+p {
+	flex-wrap: wrap;
+	font-family: $font-family_1;
+	font-weight: auto;
+	color: $color_1;
+	width: 40%;
+}
